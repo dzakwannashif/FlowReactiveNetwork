@@ -1,0 +1,45 @@
+package com.example.basickotlin.Operator
+
+fun main() {
+    val tambah : Int = 12 + 3
+    val kurang : Int = 12 - 3
+    val kali : Int = 12 * 3
+    val bagi : Int = 12 / 3
+    val modulus : Int = 13 % 3
+
+
+    val pangkat : Double = Math.pow(2.0, 3.0)
+    val percobaan : Int = 5 + 10 - 12 * 8 + 12 / 4
+// 12*8=96 12/4=3 96+3=99 5+10=15 15-99= -84
+    println(tambah)
+    println(kurang)
+    println(bagi)
+    println(kali)
+    println(modulus)
+    println(pangkat)
+    println(percobaan)
+
+    //Operator penugasan
+    var a = 10
+    var b=20
+    a+=b
+    println(a)
+
+    var c = 15
+    var d = 20
+    var e = 25
+     c = c + d - e
+    println(c)
+
+    var f = -15
+    var g = 15
+    var h = -20
+    var i = 20
+    f = f * h + g * i
+    println(f)
+
+
+
+
+
+}
